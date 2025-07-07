@@ -2,7 +2,10 @@ module github.com/tanayarun/P2P-Network
 
 go 1.24.2
 
-require github.com/libp2p/go-libp2p v0.22.0
+require (
+	github.com/libp2p/go-libp2p v0.22.0
+	github.com/multiformats/go-multihash v0.2.1
+)
 
 require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0 // indirect
@@ -19,7 +22,6 @@ require (
 	github.com/multiformats/go-multiaddr v0.6.0 // indirect
 	github.com/multiformats/go-multibase v0.1.1 // indirect
 	github.com/multiformats/go-multicodec v0.5.0 // indirect
-	github.com/multiformats/go-multihash v0.2.1 // indirect
 	github.com/multiformats/go-varint v0.0.6 // indirect
 	github.com/spacemonkeygo/spacelog v0.0.0-20180420211403-2296661a0572 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
