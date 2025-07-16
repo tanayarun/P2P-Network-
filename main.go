@@ -97,4 +97,6 @@ func main() {
 	}
 
 	fmt.Println("Peer ID:", id)
+
+	NodeStart()
 }
